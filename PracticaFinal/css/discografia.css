@@ -1,0 +1,71 @@
+h2{
+	margin: 1%;
+}
+
+
+/*
+	DISCOGRAFÍA
+*/
+.discografia, .editarDisco{
+    border: 0.01em solid black;
+	margin: 1%;
+
+}
+
+.discografia{
+	display: flex;
+}
+
+.discografiaImagen{
+	width: 20%;
+	margin: 1%;
+}
+
+.discografiaImagen img{
+	width: 100%;
+}
+
+.disco{
+    width: 78%;
+}
+
+.canciones{
+    margin-left: 3%;
+	width: 50%;
+}
+
+.editar{
+    width: 5%;
+	float: right;
+	margin: 1%;
+}
+
+.eliminar{
+    float: right;
+    width: 7%;
+    margin: 1%;
+    padding: 0.5%;
+}
+
+.comprar{
+    padding: 1%;
+	margin-top: 3%;
+}
+
+.disco img{
+	width: 100%;
+}
+
+.disco ol{
+    display: flex;
+    flex-direction: column;
+}
+
+.disco span{
+    float: right;
+}
+
+.editarDisco button{
+    margin: 1%;
+    padding: 0.5%;
+}

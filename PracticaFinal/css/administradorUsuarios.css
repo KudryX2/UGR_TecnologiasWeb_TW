@@ -1,0 +1,36 @@
+#listaUsuarios{
+    display: flex;
+    flex-direction: column;
+}
+
+.usuarioVistaAdministrador{
+	border: solid 0.01em black;
+	margin: 1%;
+}
+
+.datos1, .datos2{
+	display: flex;
+}
+
+.datos1{
+	background-color: orange;
+}
+
+.datos2{
+	background-color: gainsboro;
+}
+
+.usuarioVistaAdministrador form{
+	display: flex;
+	justify-content: center;
+}
+
+.usuarioVistaAdministrador button{
+	width: 5%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.usuarioVistaAdministrador img{
+	width: 100%;
+}

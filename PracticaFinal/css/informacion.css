@@ -1,0 +1,79 @@
+h2{
+	margin: 1%;
+}
+
+
+/*
+	COMPONENTES DEL GRUPO
+*/
+.componentes, .editarComponente{
+    border: 1px solid black;
+	margin: 1%;
+}
+
+.componentes{
+	display: flex;
+}
+
+.componentes h2,p{
+	margin: 1%;
+}
+
+.componentesImagen{
+	width: 20%;
+	margin: 1%;
+}
+
+.componentesImagen img{
+	width: 100%;
+}
+
+.informacion{
+	width: 78%;
+}
+
+.informacion button{
+	width: 5%;
+	float: right;
+	margin: 1%;
+}
+
+.informacion img{
+	width: 100%;
+}
+
+.editarComponente button{
+    margin: 1%;
+    padding: 0.5%;
+}
+
+.informacion .eliminar{
+    float: right;
+    width: 8%;
+    margin: 1%;
+    padding: 0.5%;
+}
+
+/*
+	BIOGRAFÍA DEL GRUPO
+*/
+
+#biografia{
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    margin: 1%;
+}
+
+#biografia button{
+    width: 4%;
+    margin: 1%;
+}
+
+#biografia button img{
+    width: 100%;
+}
+
+.fecha{
+	font-weight: bold;
+}

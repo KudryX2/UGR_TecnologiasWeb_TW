@@ -1,0 +1,11 @@
+.log{
+	background-color: yellow;
+	display: flex;
+	font-weight: bold;
+	margin: 1%;
+	border: 0.05em solid black;
+}
+
+.log p{
+	width: 33%;
+}

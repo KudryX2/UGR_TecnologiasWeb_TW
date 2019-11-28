@@ -1,0 +1,176 @@
+/*
+	Reglas generales para todo
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*
+	Reglas de estilo de la cabecera
+*/
+/*
+header{
+	background-color: black;
+}
+
+header nav ul{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	list-style-type: none;
+
+	background-color: lightskyblue;
+	font-weight: bold;
+}
+
+#seleccionado{
+	background-color: green;
+}
+
+header nav ul a{
+	padding: 1%;
+}
+
+header nav ul a:hover{
+	background-color: orange;
+}
+*/
+
+/*
+	Header
+*/
+header {
+	background-color: black;	
+}
+
+header img{
+	width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*
+	NAV MENU src = https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp 
+
+*/
+/* Navbar container */
+nav {
+  overflow: hidden;
+  background-color: #333;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+/* Links inside the navbar */
+nav a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	padding: 14px 16px;
+}
+
+/* The dropdown container */
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;  /* Estilo del boton */
+  outline: none; /* Estilo del boton */
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+nav a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+#seleccionado{
+	background-color: green;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+  color: black;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/*
+	Formularios
+*/
+.formulario{
+	background-color: lightgray;
+	padding: 1%;
+}
+
+.formulario fieldset{
+	margin: 1%;
+	border-color: green;
+}
+
+.formulario button{
+	margin: 1%;
+}
+
+
+/*
+	Reglas de estilo del pie de página
+*/
+footer{
+	background-color: #333;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer a,h3{
+	margin: 1%;
+}
+
+footer a, footer h3{
+	color: white;
+} 
+
+footer a:hover, footer h3:hover{
+	color: orange;
+}

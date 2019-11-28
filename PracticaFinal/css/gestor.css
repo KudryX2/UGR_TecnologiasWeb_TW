@@ -1,0 +1,91 @@
+/*
+	SELECCION DEL TIPO DE SOLICITUD DE COMPRA
+*/
+.tipoSolicitud{
+    background-color: orange;
+    border-top: 0.1em solid black;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tipoSolicitud button, .solicitudCompra button{
+	font-weight: bold;
+	border: none;
+	outline: none;
+}
+
+.tipoSolicitud button{
+	background-color: orange;
+	width: 25%;
+	padding: 1%;
+}
+
+.tipoSolicitud button:hover {
+	background-color: red;
+	color: white;
+}
+
+#seleccionado{
+	background-color: green;
+}
+
+/*
+	SOLICITUD DE COMPRA
+*/
+
+.solicitudCompra h3{
+    width: 15%;
+}
+
+.solicitudCompra{
+	background-color: lightgray;
+	margin: 1%;
+}
+
+.solicitudCompra div{
+	display: flex;
+	border: 0.05em solid black;
+}
+
+.opcionesSolicitudes{
+	display: flex;
+	flex-direction: row;
+}
+
+.opcionesSolicitudes button{
+	margin: 1em;
+	padding: 1em;
+
+	text-align: center;
+	color: white;
+}
+
+.opcionesSolicitudes button:hover{
+	color: black;
+}
+
+.aceptar{
+	background-color: green;
+}
+
+.rechazar{
+	background-color: red;
+}
+
+.pendiente{
+	background-color: orange;
+}
+
+.opcionesSolicitudes p{
+	margin: 1em;
+}
+
+.opcionesSolicitudes input{
+	width: 100%;
+}
+
+.negrita{
+    font-weight: bold;
+}
