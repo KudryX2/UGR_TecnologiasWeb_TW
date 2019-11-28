@@ -1,0 +1,129 @@
+header, article figure{
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/*
+	Menu de navegacion
+*/
+nav {
+	border-top: solid red;
+	border-bottom: solid red;
+}
+
+nav ul{
+	list-style-type: none;
+	background-color: gray;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	padding-left: 0.1em;
+	padding-right: 0.1em; 
+}
+
+nav li{
+	margin: 0.5%;
+	padding: 0.5%;
+	background-color: lightgrey;	
+}
+
+nav a:visited {
+	color: black;
+}
+
+nav a{
+	color: green;
+}
+
+nav a:hover{
+	color: white;
+}
+
+nav li:hover{
+	background-color: DeepSkyBlue;
+}
+
+
+/*
+	Contenido
+*/
+article h3{
+	background-color: PeachPuff;
+}
+
+article ul{
+	margin-left: 3em;
+}
+
+
+/*
+	Tabla de conciertos
+*/
+table {
+	border-collapse: collapse; 
+	border: 0.2em solid lightblue;
+	text-align: left;
+}
+
+table td,th{
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+table tr:nth-child(odd){
+	background-color: Beige;
+
+}
+
+table tr:nth-child(even){
+	background-color: Bisque;
+}
+
+table tr:nth-child(1){
+	background-color: lightblue;
+}
+
+table tr td:nth-child(1){
+	font-weight: bold;
+}
+
+.concierto:hover {
+	background-color: darkorange;
+}
+
+.concierto td:hover{
+	color: yellow;
+}
+
+
+/*
+	Articulos disponibles
+*/
+.tienda{
+	background-color: PeachPuff;
+}
+
+
+/*
+	Footer
+*/
+footer {
+	border-top: 0.1em solid red;
+	background-color: lightgray;
+	text-align: center;
+}
+
+footer, footer a{
+	padding: 0.5em;
+}
+
+footer a{
+	margin: 1em;
+}
+
+footer a:hover{
+	background-color: coral;
+}

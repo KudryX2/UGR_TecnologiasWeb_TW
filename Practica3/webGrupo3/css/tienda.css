@@ -1,0 +1,61 @@
+#formulario{
+	margin: 0;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	
+	padding: 0;
+}
+
+#formulario form{
+	display: flex;
+	flex-direction: column;
+	border: 0.01em solid grey;
+	background-color: lightgrey;
+}
+
+#formulario fieldset{
+	margin-top: 1%;
+	margin-bottom: 1%;
+
+	padding-bottom: 1%;
+
+	border: 0.01em solid grey;
+	background-color: white;
+
+}
+
+#formulario h2{
+	margin-top: 1%;
+	margin-left: 2%;
+}
+
+fieldset{
+	border: none;
+	padding: 0;
+}
+
+#formulario h3{
+	padding: 1%;
+}
+
+.checkbox{
+	margin-left: 2%;
+}
+
+
+#botonComprar{
+	text-align: center;
+}
+
+#botonComprar input{
+	width: 35%;
+	height: 4em;
+
+	margin-top: 1%;
+	font-weight: bold;
+}
+
+#botonComprar input:hover{
+	border-color: orange;
+	background-color: orange;
+}

@@ -1,0 +1,51 @@
+/*
+	Bordes
+*/
+article, article div{
+	border: 0.01em solid grey;
+}
+
+
+article{
+	background-color: lightgrey;
+
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+article h2{
+	margin-top: 1%;
+	margin-left: 2%;
+	margin-bottom: 1%;
+}
+
+article div{
+	display: flex;
+	justify-content: space-between 1%;
+	flex-wrap: wrap;
+	background-color: white;
+
+	margin-bottom: 1%;
+}
+
+article figure{
+	margin:1%;
+	width: 31%;
+	text-align: center;
+}
+
+article figure:hover{
+	background-color: lightgrey;
+}
+
+article figure img{
+	width: 80%;
+	height: 20em;
+	margin: 0;
+}
+
+article figure input{
+	width: 80%;
+	padding: 1%;
+	background-color: white;
+}

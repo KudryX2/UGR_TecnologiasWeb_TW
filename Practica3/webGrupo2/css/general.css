@@ -1,0 +1,120 @@
+/*
+	Reglas generales
+*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+/*
+	Delimitador secciones
+*/
+h2{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: red;
+	color: white;
+
+	text-align: center;
+}
+/*
+	Cabecera
+*/
+header{
+	overflow:auto;
+	background-color: lightgrey;
+	padding: 1%;
+}
+
+header img{
+	width: 10em;
+	margin-left: 30%;
+	float: left;
+}
+
+header h1{
+	font-size: 3em;
+	line-height: 3.3em;
+	margin-left: 3%;
+	float: left;
+}
+
+/*
+	Menu Navegacion
+*/
+nav{
+	list-style-type: none;
+	background-color: orange;
+
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 1.5%;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	padding: 1.5%;	
+}
+
+nav a:hover{
+	background-color: black;
+	color: red;
+}
+
+
+/*
+	Footer
+*/
+footer{
+	text-align: center;
+	background-color: lightgrey;
+	clear: both;	
+	padding: 1.5%;
+}
+
+footer a{
+	padding: 1.5%;
+}
+
+footer a:hover{
+	background-color: coral;
+}
+
+
+/*
+	CSS BIOGRAFIA
+
+	Para no hacer una peticion de mas por tan solo dos regls
+	la añadi a este mismo fichero aunque si hubieran mas 
+	crearia un fichero dedicado a ese html.
+
+*/
+#fotoBiografia{
+	text-align: center;
+}
+
+#biografia p{
+	margin-top: 2%;
+	margin-bottom: 2%;
+
+	margin-left: 5%;
+	margin-right: 5%;
+}
+

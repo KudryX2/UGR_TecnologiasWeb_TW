@@ -1,0 +1,43 @@
+article div{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+figure {
+	width: 32.3%;
+	background-color: 11;
+	float: left;
+	margin: 0.5%;
+
+	text-align: center;
+}
+
+figure h3{
+	padding: 3%;
+}
+
+figure img{
+	width: 90%;
+}
+
+figure input{
+	padding: 1%;
+	margin: 2%;
+	width: 90%;
+	font-weight: bold;
+	font-size: 1em;
+	background-color: orange;
+	border-color: orange;
+}
+
+figure:hover{
+	background-color: black;
+}
+
+figure:hover h3{
+	color: red;
+}
+
+figure input:hover{
+	color: red;
+}

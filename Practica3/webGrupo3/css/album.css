@@ -1,0 +1,76 @@
+/*
+	Bordes
+*/
+section, #descripcion, #canciones, #canciones li{
+	border: 0.01em solid grey;
+}
+
+
+section{
+	margin: 1%;
+	background-color: lightgrey;
+
+	display: flex;
+	flex-direction: column;
+}
+
+#descripcion{
+	display: flex;
+	flex-direction: row;
+
+	background-color: white;
+
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+h2{
+	padding: 1%;
+}
+
+#descripcion img{
+	width: 35%;
+}
+
+#descripcion p{
+	width: 50%;
+}
+
+#descripcion input{
+	padding: 15%;
+}
+
+
+#canciones{
+	background-color: white;
+
+	margin-top: 1%;
+	margin-bottom: 1%;
+
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+#canciones h3{
+	padding: 1%;
+}
+
+#canciones ul{
+	display: flex;
+	flex-direction: column;
+}
+
+#canciones li{
+	width: 35%;
+	padding: 0.5%;
+	font-weight: bold;
+}
+
+#canciones li:hover{
+	background-color: lightgrey;
+}
+
+#canciones li img{
+	float: right;
+}
+

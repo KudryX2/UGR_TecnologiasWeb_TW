@@ -1,0 +1,44 @@
+#formulario{
+	margin-top: 1%;
+	margin-bottom: 1%;
+
+}
+
+#formulario fieldset{
+	margin-top: 1%;
+	margin-bottom: 1%;
+
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#formulario h3{
+	padding: 1%;
+}
+
+#formulario input{
+}
+
+.checkbox{
+	margin-left: 1%;
+}
+
+fieldset{
+	border: none;
+}
+
+#botonComprar{
+	text-align: center;
+}
+
+#botonComprar input{
+	width: 35%;
+	height: 4em;
+
+	font-weight: bold;
+}
+
+#botonComprar input:hover{
+	border-color: orange;
+	background-color: orange;
+}

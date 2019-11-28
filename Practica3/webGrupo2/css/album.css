@@ -1,0 +1,74 @@
+#descripcion{
+	overflow: auto;
+}
+
+#descripcion h2{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+
+	padding-top: 1%;
+	padding-bottom: 1%;
+
+	text-align: center;
+
+	background-color: red;
+	color: white;
+}
+
+#descripcion img{
+	float: left;
+
+	margin-left: 5%;
+	width: 30%;
+}
+
+#descripcion p{
+	margin-left: 3%;
+	width: 60%;
+
+	float: left;
+}
+
+#descripcion input{
+	margin-top: 5%;
+	margin-left: 15%;
+	width: 30%;
+	height: 4em;
+	font-weight: bold;
+}
+
+
+#canciones{
+	float: left;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 5%;
+	width: 30%;
+}
+
+#canciones h3{
+	font-size: 2em;
+	margin-bottom: 4%;
+}
+
+#canciones ul{
+	overflow: auto;
+	list-style: none;
+	font-weight: bold;
+}
+
+#canciones li{
+	float: left;
+	width: 100%;
+}
+
+#canciones li:hover{
+	background-color: lightgrey;
+}
+
+#canciones img{
+	float: left;
+	margin-right: 5%;
+}

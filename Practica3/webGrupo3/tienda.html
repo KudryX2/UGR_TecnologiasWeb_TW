@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Rammstein fanpage TIENDA</title>
+		<link rel="stylesheet" type="text/css" href="./css/general.css">
+		<link rel="stylesheet" type="text/css" href="./css/tienda.css">
+
+	</head>
+
+	<body>
+
+		<header>
+			<img src="https://k45.kn3.net/19A5E3059.png" alt="Logo del grupo Rammstein">
+			<h1>RAMMSTEIN</h1>
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="./index.html">Inicio</a></li>
+				<li><a href="./biografia.html">Biografía</a></li>
+				<li><a href="./discografia.html">Discografia</a></li>
+				<li><a href="./tienda.html"">Tienda</a></li>
+			</ul>
+		</nav>
+
+		<section id="formulario">
+			
+			<form action="./php/procesar.php" method="post">
+
+				<h2>Seleccione el album o articulo que quiera comprar</h2>
+				<fieldset>					
+					<h3>Albumes</h3>
+					<input class="checkbox" type="checkbox" name="compra" value="Reise Reise">Reise Reise</input>
+					<input class="checkbox" type="checkbox" name="compra" value="Reise Reise">Mutter</input>
+					<input class="checkbox" type="checkbox" name="compra" value="Reise Reise">Rosenrot</input>
+
+					<h3>Otros articulos</h3>
+					<input class="checkbox" type="checkbox" name="compra" value="Camiseta">Camiseta</input>
+					<input class="checkbox" type="checkbox" name="compra" value="Taza">Taza</input>
+
+				</fieldset>
+
+				<h2>Introduzca sus datos</h2>
+				<fieldset>
+					<h3>Introduzca su nombre <input type="text" name="nombre" placeholder="Nombre"></h3>
+					<h3>Introduzca sus apellidos <input type="text" name="apellidos" placeholder="Apellidos"></h3>
+					<h3>Introduzca su fecha de nacimiento <input type="date" name="fecha"></h3>
+					<h3>Introduzca su teléfono <input type="number" name="telefono" placeholder="Numero de teléfono"></h3>
+				</fieldset>
+
+				<h2>Introduzca los datos de pago</h2>
+				<fieldset>
+					<h3>Seleccione el tipo de tarjta</h3>
+					<input class="checkbox" type="radio" name="tarjeta" value="Visa">Visa<br>
+					<input class="checkbox" type="radio" name="tarjeta" value="Mastercard">Mastercard<br>
+
+					<h3>Numero de la tarjeta <input type="number" name="numeroTarjeta" placeholder="numero de tarjeta"></h3>
+					<h3>Fecha de caducidad de la tarjeta <input type="date" name="caducidadTarjeta"></h3>
+				</fieldset>
+
+				<h2>Introduzca la dirección de envío</h2>
+				<fieldset>
+					<h3>Pais
+					<select name="pais">
+						<option value="España">España</option>
+						<option value="Francia">Francia</option>
+						<option value="Portugal">Portugal</option>
+						<option value="Andorra">Andorra</option>
+					</select>
+					</h3>
+
+					<h3>Calle <input type="text" name="calle" placeholder="calle"></h3>
+					<h3>Población <input type="text" name="poblacion" placeholder="poblacion"></h3>
+					<h3>Provincia <input type="text" name="provincia" placeholder="provincia"></h3>
+					<h3>Código postal<input type="number" name="codigoPostal" placeholder="código postal"></h3>
+				</fieldset>
+
+				<fieldset id="botonComprar" >
+					<input type="submit" value="Realizar la compra">
+				</fieldset>
+				
+
+			</form>
+
+		</section>
+
+		<footer>
+			<a href="./doc/documentacion.pdf">Documentación</a>
+			<a href="../index.html"><h>VOLVER A LA SELECCIÓN DEL EJERCICIO</h></a>
+		</footer>
+	</body>
+
+</html>

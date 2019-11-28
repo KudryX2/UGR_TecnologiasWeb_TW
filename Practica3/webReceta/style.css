@@ -1,0 +1,81 @@
+body {
+	background-color: PowderBlue;
+}
+
+header {
+	background-color: DeepSkyBlue;
+	text-align: center;
+	padding-bottom: 0.1em;
+	padding-top: 0.1em;
+}
+
+nav {
+	background-color: Pink;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+}
+
+nav ul{
+	list-style-type: none;
+	margin-left: 3em;
+}
+
+nav a{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+nav a:hover{
+	background-color: DeepSkyBlue;
+}
+
+nav a:visited{
+	color: black;
+}
+
+
+
+#sectionInformacion dl dt{
+	font-weight: bold; 
+}
+
+
+
+#sectionIngredientes {
+	background-color: Violet;
+}
+
+#sectionIngredientes h2 {
+	background-color: MediumOrchid; 
+}
+
+
+
+#sectionElaboracion {
+	background-color: PeachPuff;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#sectionElaboracion h3{
+	background-color: Peru;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.pasos{
+	background-color: PaleTurquoise;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.video iframe{
+	margin: 0 auto;
+   	display: block;
+}
+
+.consejos {
+	margin-left: 1em;
+	margin-right: 1em;
+}

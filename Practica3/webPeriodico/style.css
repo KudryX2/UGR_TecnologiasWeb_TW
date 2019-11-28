@@ -1,0 +1,248 @@
+/*
+	Reglas generales
+*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+body{
+
+}
+
+/*
+	Menu secciones
+*/
+.secciones{
+	background-color: white;
+
+	text-align: center;
+	font-size: 100%;
+	font-weight: bold;
+
+	padding-top: 1.5%;
+	padding-bottom: 1.4%;
+
+	border-bottom: 0.05em solid gray;
+
+	position: fixed;
+	width: 100%;
+}
+
+.secciones li{
+	display: inline;
+}
+
+.secciones a{
+	color: black;
+
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.secciones a:hover{
+	background-color: gray;
+	color: white;
+}
+
+.notif a{
+	border-left: 0.01em solid gray;
+	padding-bottom: 1.4%;
+}
+
+.notif a:hover{
+	background-color: lightgrey;
+}
+
+.notif img{
+	width: 1.5%;
+	height: 1.5%;
+}
+
+
+/*
+	Cabecera
+*/
+.zonaLogo{
+	text-align: center;
+	display: block;
+
+	padding-top: 6%;
+
+	width: 100%
+}
+
+
+.redesSociales{
+  	text-align: left;
+  	margin-left: 1em;
+}
+
+.redesSociales img{
+	width: 1.5em;
+	height: 1.5em;
+}
+
+
+.logoPeriodico{
+	width: 25%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.subLogo{
+	padding-top: 1em;
+	text-align: center;
+}
+
+.subLogo li{
+	display: inline;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.subLogo a{
+	color: black;
+}
+
+.subsubLogo{
+	padding-bottom: 1em;
+	text-align: right;
+	margin-right: 1em;
+}
+
+.subsubLogo li{
+	display: inline;
+}
+
+.subsubLogo a{
+	color: gray;
+}
+
+.subsubLogo a:hover{
+	color: black;
+}
+
+
+/*
+	Noticia
+*/
+.noticiaHorizontal, .noticiaVertical{
+	overflow: auto;
+	margin: 0.3em;
+	border-top: 0.1em solid lightgrey;
+	border-collapse: separate;
+}
+
+.noticiaHorizontal p, .noticiaHorizontal img, .noticiaVertical p, .noticiaVertical img{
+	padding-top: 1%;
+}
+
+
+.noticiaHorizontal p{
+	width: 60%;
+	float: left;
+}
+
+.noticiaHorizontal img{
+	width: 40%;
+	float: left;
+}
+
+.noticiaVertical p{
+	text-align: center;
+}
+
+.noticiaVertical img{
+	width: 100%;
+}
+
+
+/*
+	Zonas con contenido general
+*/
+.zonaDosColumnas, .zonaTresColumnas, .zonaCuatroAnuncios, .zonaCincoAnuncios{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+/*
+	Zona de noticias de dos columnas
+*/
+.zonaDosColumnas{
+	overflow: auto;
+
+
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+.zonaDosColumnas .noticiaVertical, .noticiaHorizontal{
+	width: 35%;
+}
+
+.zonaDosColumnas div.noticiaVertical{  
+	float: right;
+	width: 32%;
+}
+
+/*
+	Zona de noticias de tres columnas
+*/
+.zonaTresColumnas{
+	overflow: auto;
+}
+
+.zonaTresColumnas div{
+	width: 32.3%;
+	float: left;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+}
+
+
+/*
+	Zona de anuncios
+*/
+.zonaCuatroAnuncios, .zonaCincoAnuncios{
+	overflow: auto;
+	margin-top: 0.5%;
+}
+
+.zonaCuatroAnuncios img, .zonaCincoAnuncios img{
+	height: 15em;
+	float: left;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+}
+
+.zonaCuatroAnuncios img{
+	width: 24%;
+}
+
+.zonaCincoAnuncios img{
+	width: 19%;
+}
+
+/*
+	Footer
+*/
+footer {
+	border-top: 0.1em solid red;
+	background-color: lightgray;
+	text-align: center;
+	margin-top: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}

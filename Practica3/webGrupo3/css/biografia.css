@@ -1,0 +1,46 @@
+/*
+	Bordes
+*/
+#biografia, #biografia article, #fotoBiografia{
+	border: 0.01em solid grey;
+}
+
+/*
+	Background color
+*/
+#biografia, #fotoBiografia{
+	background-color: lightgrey;
+}
+
+/*
+	Biografa
+*/
+#biografia{
+	display: flex;
+	flex-direction: column;
+}
+
+#biografia article{
+	background-color: white;
+	margin-bottom: 1%;
+}
+
+#biografia, #biografia p{
+	margin: 1%;
+}
+
+#biografia h2{
+	margin-top: 1%;
+	margin-left: 2%;
+	margin-bottom: 1%;
+}
+
+#fotoBiografia{
+	text-align: center;
+	width: 50%;
+}
+
+#fotoBiografia img{
+	margin: 1%;
+	width: 98%;
+}
