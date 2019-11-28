@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Rammstein fanpage TIENDA</title>
+	</head>
+
+	<body>
+
+		<header>
+			<a href="./index.html"><img src="https://pbs.twimg.com/profile_images/626789734447206400/xMkLojfG_400x400.png" alt="Logo del grupo Rammstein"></a>
+			<h1>RAMMSTEIN</h1>
+			<h2>TIENDA</h2>
+		</header>
+		
+		<nav>
+			<a href="./index.html">Inicio</a>
+			<a href="./biografia.html">Biografía</a>
+			<a href="./discografia.html">Discografia</a>
+			<a href="./tienda.html">Tienda</a>
+		</nav>
+
+		<section>
+			
+			<form action="./php/procesar.php" method="post">
+
+				<h2>Seleccione el album o articulo que quiera comprar</h2>
+				<fieldset>					
+					<h3>Albumes</h3>
+					<input type="checkbox" name="compra" value="Reise Reise">Reise Reise</input>
+					<input type="checkbox" name="compra" value="Reise Reise">Mutter</input>
+					<input type="checkbox" name="compra" value="Reise Reise">Rosenrot</input>
+
+					<h3>Otros articulos</h3>
+					<input type="checkbox" name="compra" value="Camiseta">Camiseta</input>
+					<input type="checkbox" name="compra" value="Taza">Taza</input>
+
+				</fieldset>
+
+				<h2>Introduzca sus datos</h2>
+				<fieldset>
+					<h3>Introduzca su nombre <input type="text" name="nombre" placeholder="Nombre"></h3>
+					<h3>Introduzca sus apellidos <input type="text" name="apellidos" placeholder="Apellidos"></h3>
+					<h3>Introduzca su fecha de nacimiento <input type="date" name="fecha"></h3>
+					<h3>Introduzca su teléfono <input type="number" name="telefono" placeholder="Numero de teléfono"></h3>
+				</fieldset>
+
+				<h2>Introduzca los datos de pago</h2>
+				<fieldset>
+					<h3>Seleccione el tipo de tarjta</h3>
+					<input type="radio" name="tarjeta" value="Visa">Visa<br>
+					<input type="radio" name="tarjeta" value="Mastercard">Mastercard<br>
+
+					<h3>Numero de la tarjeta <input type="number" name="numeroTarjeta" placeholder="numero de tarjeta"></h3>
+					<h3>Fecha de caducidad de la tarjeta <input type="date" name="caducidadTarjeta"></h3>
+				</fieldset>
+
+				<h2>Introduzca la dirección de envío</h2>
+				<fieldset>
+					<h3>Pais
+					<select name="pais">
+						<option value="España">España</option>
+						<option value="Francia">Francia</option>
+						<option value="Portugal">Portugal</option>
+						<option value="Andorra">Andorra</option>
+					</select>
+					</h3>
+
+					<h3>Calle <input type="text" name="calle" placeholder="calle"></h3>
+					<h3>Población <input type="text" name="poblacion" placeholder="poblacion"></h3>
+					<h3>Provincia <input type="text" name="provincia" placeholder="provincia"></h3>
+					<h3>Código postal<input type="number" name="codigoPostal" placeholder="código postal"></h3>
+				</fieldset>
+
+				<fieldset>
+					<input type="submit" value="Realizar la compra">
+				</fieldset>
+				
+
+			</form>
+
+		</section>
+
+		<footer>
+			<ul>
+				<li><a href="./doc/documentacion.pdf">Documentación</a></li>
+				<li><a href="../index.html"><h>VOLVER A LA SELECCIÓN DEL EJERCICIO</h></a></li>
+			</ul>
+		</footer>
+	
+	</body>
+
+</html>
